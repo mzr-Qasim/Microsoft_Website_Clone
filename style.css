@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+}
+
+
+.primary-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 50px;
+}
+
+
+
+
+.primary-nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    
+}
+
+.primary-nav ul li {
+    margin: 12px;
+}
+
+
+
+
+.primary-nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.primary-nav ul li a:hover{
+    border-bottom: 2px solid black;
+}
+
+.image-wrapper-nav img{
+    width: 100%;
+    
+}
+
+
+
+.ms-products{
+    display: flex;
+    margin: 150px 150px;
+}
+
+.card{
+    width: 25%;
+    margin: 12px;
+    
+}
+
+.ms-products img{
+    width: 100%;
+}
+
+
+.anchor-wrapper{
+    text-decoration: none;
+}
+
+
+.anchor-wrapper img{
+    text-decoration: none;
+}
+
+.anchor-wrapper h2{
+    color: black;
+}
+
+.anchor-wrapper p{
+    color: black;
+}
+
+.anchor-wrapper-link{
+    text-decoration: none;
+    color: #0067ba;
+}
+
+
+.anchor-wrapper-link:hover{
+    border-bottom: 1px solid #0067ba;
+ 
+}
+
