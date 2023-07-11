@@ -1,4 +1,4 @@
-# Task_Lecture_7Microsoft_Website_Web
+# Task_Lecture_7_Microsoft_Website_Web
 
 Microsoft website clone 
 
