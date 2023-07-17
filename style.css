@@ -42,10 +42,33 @@ body{
 }
 
 
+.image-wrapper-nav{
+    position: relative;
+    
+}
+
+.image-content{
+    padding: 30px;
+    background-color: white;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.image-content a{
+    text-decoration: none;
+    color: black;
+    background-color: blue;
+}
+
+
+
 
 .ms-products{
     display: flex;
-    margin: 150px 150px;
+    margin: 70px 70px;
 }
 
 .card{
