@@ -37,12 +37,18 @@ body{
     text-decoration: none;
     color: black;
 }
+.primary-nav ul a span{
+    text-decoration: none;
+    color: black;
+}
+
+
 
 .primary-nav ul li a:hover{
     border-bottom: 2px solid black;
 }
 
-.microsoft-icon img:hover{
+.primary-nav ul a li img:hover{
     border: none;
 }
 
@@ -100,7 +106,7 @@ body{
 
 .image-content-link a{
     font-family: 'Nunito Sans', sans-serif;
-    padding: 5px;
+    padding: 7px;
     color: white;
     background-color: rgba(0,103,184,255);
 }
@@ -136,6 +142,7 @@ body{
 
 .anchor-wrapper{
     text-decoration: none;
+
 }
 
 
@@ -152,8 +159,11 @@ body{
 }
 
 .anchor-wrapper-link{
+    font-weight: bold; 
     text-decoration: none;
     color: #0067ba;
+   
+
 }
 
 
@@ -161,6 +171,34 @@ body{
     border-bottom: 1px solid #0067ba;
  
 }
+
+.anchorbuttons{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.anchorbuttons .material-symbols-outlined{
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 500,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  
+
+
+
+
+.anchorbuttons span{
+    color: #0067ba;
+}
+
+
+
+
 
 .Outlook-IOS-Android{
     position: relative;
@@ -208,12 +246,6 @@ body{
     background-color: #1a6985;
     
 }
-
-
-
-
-
-
 
 .business-heading{
     display: flex;
@@ -284,12 +316,13 @@ body{
     display: flex;
     list-style-type: none;
     color: #616161;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 .footer-content-part ul{
     list-style-type: none;
-    margin: 25px 45px;
+    margin: 25px 15px;
+ 
 }
 
 .footer-content-part ul a{
@@ -314,9 +347,7 @@ body{
 
 .lowest-footer{
     display: flex;
-    margin-top: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 0px;
     justify-content: space-between;
     position: relative;
     
@@ -388,3 +419,9 @@ body{
    
 }
 
+
+.bottom-right-lowest-footer li h6{
+    font-size: 12px;
+    color: #616161;
+    
+ }
